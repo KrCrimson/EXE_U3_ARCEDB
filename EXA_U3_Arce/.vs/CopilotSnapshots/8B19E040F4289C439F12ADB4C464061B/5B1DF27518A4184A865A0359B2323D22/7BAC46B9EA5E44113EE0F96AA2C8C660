@@ -1,0 +1,40 @@
+﻿using System.Linq;
+using System.Web.Mvc;
+using EXA_U3_Arce.Models;
+
+namespace EXA_U3_Arce.Controllers
+{
+    public class LoginController : Controller
+    {
+        private AppDbContext db = new AppDbContext();
+
+        public ActionResult Index()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Index(string username, string password)
+        {
+            var user = db.Usuarios.FirstOrDefault(u => u.Username == username && u.Password == password);
+            if (user != null)
+            {
+                if (user.Rol == "admin")
+                    return RedirectToAction("Admin", "Login");
+                else
+                    return RedirectToAction("User", "Login");
+            }
+            ViewBag.Error = "Usuario o contraseña incorrectos";
+            return View();
+        }
+
+        public ActionResult Admin()
+        {
+            return Content("Bienvenido Admin");
+        }
+        public ActionResult User()
+        {
+            return Content("Bienvenido Usuario");
+        }
+    }
+}

@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\windows10\\source\\repos\\EXA_U3_Arce\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2512AB-3060-4BD6-8E0E-1E70E0B42C40}|EXA_U3_Arce\\EXA_U3_Arce.csproj|c:\\users\\windows10\\source\\repos\\exa_u3_arce\\exa_u3_arce\\views\\login\\user.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A2512AB-3060-4BD6-8E0E-1E70E0B42C40}|EXA_U3_Arce\\EXA_U3_Arce.csproj|solutionrelative:exa_u3_arce\\views\\login\\user.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2512AB-3060-4BD6-8E0E-1E70E0B42C40}|EXA_U3_Arce\\EXA_U3_Arce.csproj|c:\\users\\windows10\\source\\repos\\exa_u3_arce\\exa_u3_arce\\views\\login\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A2512AB-3060-4BD6-8E0E-1E70E0B42C40}|EXA_U3_Arce\\EXA_U3_Arce.csproj|solutionrelative:exa_u3_arce\\views\\login\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2512AB-3060-4BD6-8E0E-1E70E0B42C40}|EXA_U3_Arce\\EXA_U3_Arce.csproj|c:\\users\\windows10\\source\\repos\\exa_u3_arce\\exa_u3_arce\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A2512AB-3060-4BD6-8E0E-1E70E0B42C40}|EXA_U3_Arce\\EXA_U3_Arce.csproj|solutionrelative:exa_u3_arce\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2512AB-3060-4BD6-8E0E-1E70E0B42C40}|EXA_U3_Arce\\EXA_U3_Arce.csproj|c:\\users\\windows10\\source\\repos\\exa_u3_arce\\exa_u3_arce\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2512AB-3060-4BD6-8E0E-1E70E0B42C40}|EXA_U3_Arce\\EXA_U3_Arce.csproj|solutionrelative:exa_u3_arce\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cshtml",
+              "DocumentMoniker": "C:\\Users\\windows10\\source\\repos\\EXA_U3_Arce\\EXA_U3_Arce\\Views\\Login\\User.cshtml",
+              "RelativeDocumentMoniker": "EXA_U3_Arce\\Views\\Login\\User.cshtml",
+              "ToolTip": "C:\\Users\\windows10\\source\\repos\\EXA_U3_Arce\\EXA_U3_Arce\\Views\\Login\\User.cshtml",
+              "RelativeToolTip": "EXA_U3_Arce\\Views\\Login\\User.cshtml",
+              "ViewState": "AgIAACYAAAAAAAAAAAAYwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-28T18:04:22.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Admin.cshtml",
+              "DocumentMoniker": "C:\\Users\\windows10\\source\\repos\\EXA_U3_Arce\\EXA_U3_Arce\\Views\\Login\\Admin.cshtml",
+              "RelativeDocumentMoniker": "EXA_U3_Arce\\Views\\Login\\Admin.cshtml",
+              "ToolTip": "C:\\Users\\windows10\\source\\repos\\EXA_U3_Arce\\EXA_U3_Arce\\Views\\Login\\Admin.cshtml",
+              "RelativeToolTip": "EXA_U3_Arce\\Views\\Login\\Admin.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-28T18:04:21.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\windows10\\source\\repos\\EXA_U3_Arce\\EXA_U3_Arce\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "EXA_U3_Arce\\Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\windows10\\source\\repos\\EXA_U3_Arce\\EXA_U3_Arce\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "EXA_U3_Arce\\Views\\Login\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-28T17:32:13.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\windows10\\source\\repos\\EXA_U3_Arce\\EXA_U3_Arce\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "EXA_U3_Arce\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\windows10\\source\\repos\\EXA_U3_Arce\\EXA_U3_Arce\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "EXA_U3_Arce\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAADwvykAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T16:21:07.8Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

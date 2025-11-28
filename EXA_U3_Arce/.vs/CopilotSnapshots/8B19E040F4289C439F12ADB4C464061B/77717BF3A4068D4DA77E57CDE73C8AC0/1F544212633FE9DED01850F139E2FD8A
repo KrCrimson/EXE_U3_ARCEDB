@@ -1,0 +1,5 @@
+﻿@{
+    ViewBag.Title = "Usuario";
+}
+<h2>Bienvenido, Usuario</h2>
+<p>Esta es la vista exclusiva para el rol <strong>user</strong>.</p>

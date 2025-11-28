@@ -1,0 +1,91 @@
+﻿@{
+    ViewBag.Title = "Admin";
+}
+
+<style>
+    /* 1. Estilos del cuerpo y fondo */
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f0f2f5; /* Fondo muy claro y profesional */
+        color: #333;
+        margin: 0;
+        padding-top: 50px; /* Espacio superior para centrar mejor el contenido */
+    }
+
+    /* 2. Contenedor principal del Dashboard */
+    .admin-dashboard {
+        background-color: #ffffff;
+        padding: 40px 60px;
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        width: 90%;
+        max-width: 800px;
+        margin: 0 auto; /* Centrar el bloque */
+        text-align: center;
+        border-top: 5px solid #005691; /* Línea de color de acento */
+    }
+
+    /* 3. Estilos del título (H2) */
+    h2 {
+        color: #005691; /* Un azul oscuro, asociado con lo corporativo */
+        margin-bottom: 15px;
+        font-weight: 700;
+        font-size: 2.2em;
+        position: relative;
+        padding-bottom: 10px;
+    }
+
+        h2::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 3px;
+            background: #005691;
+            margin: 8px auto 0;
+        }
+
+    /* 4. Estilos del párrafo de bienvenida */
+    p {
+        color: #555;
+        font-size: 1.1em;
+        line-height: 1.6;
+        margin-bottom: 25px;
+    }
+
+    /* 5. Estilos para el texto de rol destacado */
+    strong {
+        color: #005691;
+        font-weight: 700;
+        /* Puedes añadir un estilo sutil para destacarlo más */
+        padding: 2px 5px;
+        background-color: #e6f0f8; /* Fondo muy claro */
+        border-radius: 4px;
+    }
+
+    /* 6. Estilos de un posible botón de acción (ej. "Ir al Panel") */
+    .action-button {
+        display: inline-block;
+        background-color: #007bff;
+        color: white;
+        padding: 12px 25px;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 1em;
+        font-weight: 600;
+        margin-top: 15px;
+        transition: background-color 0.3s, transform 0.1s;
+    }
+
+        .action-button:hover {
+            background-color: #0056b3;
+            transform: translateY(-2px);
+        }
+</style>
+
+<div class="admin-dashboard">
+    <h2>Bienvenido, Administrador</h2>
+    <p>Esta es la vista exclusiva para el rol <strong>admin</strong>. Desde aquí puedes gestionar usuarios, reportes y configuraciones del sistema.</p>
+
+    <a href="/Admin/Dashboard" class="action-button">Ir al Panel de Control</a>
+</div>

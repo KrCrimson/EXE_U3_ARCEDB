@@ -1,0 +1,60 @@
+﻿@{
+    ViewBag.Title = "Admin";
+}
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f0f2f5;
+        margin: 0;
+        padding-top: 50px;
+    }
+    .admin-dashboard {
+        background-color: #fff;
+        padding: 32px 24px;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        max-width: 400px;
+        margin: 40px auto;
+        text-align: center;
+        border-top: 4px solid #005691;
+    }
+    h2 {
+        color: #005691;
+        margin-bottom: 18px;
+        font-size: 1.6em;
+    }
+    p {
+        color: #555;
+        font-size: 1em;
+        margin-bottom: 18px;
+    }
+    .role {
+        color: #005691;
+        font-weight: bold;
+        background: #e6f0f8;
+        border-radius: 4px;
+        padding: 2px 6px;
+    }
+    .action-button {
+        background: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 1em;
+        font-weight: 600;
+        cursor: pointer;
+        margin-top: 10px;
+        transition: background 0.2s;
+        text-decoration: none;
+        display: inline-block;
+    }
+    .action-button:hover {
+        background: #0056b3;
+    }
+</style>
+<div class="admin-dashboard">
+    <h2>Bienvenido, Administrador</h2>
+    <p>Esta es la vista exclusiva para el rol <span class="role">admin</span>.</p>
+    <a href="#" class="action-button">Panel de Control</a>
+</div>
